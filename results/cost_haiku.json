@@ -1,0 +1,1868 @@
+{
+ "summary": {
+  "alerts": 80,
+  "model": "claude-haiku-4-5-20251001",
+  "mean": 0.09280977375,
+  "median": 0.092185125,
+  "min": 0.07245085,
+  "max": 0.12424425,
+  "total": 7.4247819,
+  "usd_by_meter": {
+   "input": 0.006727999999999997,
+   "write": 1.4633675000000004,
+   "read": 5.015031400000002,
+   "out": 0.9396549999999999
+  },
+  "mean_harness_usd": 0.067582455,
+  "harness_share": 0.7281825207552562,
+  "mean_requests": 10.2625,
+  "mean_first_context": 58364,
+  "mean_read_tokens": 626878.925,
+  "mean_write_tokens": 14633.675,
+  "mean_output_tokens": 2349.1375,
+  "share_requests_with_final_usage": 0.6224116930572473,
+  "share_output_estimated": 0.05712202882973006
+ },
+ "per_alert": {
+  "ALR-0039": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 14399,
+    "write1h": 0,
+    "read": 737040,
+    "out": 2168,
+    "out_est": 334
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.017998749999999997,
+    "read": 0.073704,
+    "out": 0.010839999999999999
+   },
+   "cost": 0.10264075,
+   "started": "2026-10-03T15:04:23.975Z"
+  },
+  "ALR-0016": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 14,
+   "final_usage": 9,
+   "first_context": 58364,
+   "harness_usd": 0.089396,
+   "tokens": {
+    "input": 114,
+    "write5": 15777,
+    "write1h": 0,
+    "read": 875240,
+    "out": 3377,
+    "out_est": 114
+   },
+   "usd": {
+    "input": 0.00011400000000000002,
+    "write": 0.01972125,
+    "read": 0.087524,
+    "out": 0.016885
+   },
+   "cost": 0.12424425,
+   "started": "2026-10-03T15:01:47.264Z"
+  },
+  "ALR-0032": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 15344,
+    "write1h": 0,
+    "read": 548903,
+    "out": 2105,
+    "out_est": 137
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.019180000000000003,
+    "read": 0.0548903,
+    "out": 0.010525
+   },
+   "cost": 0.0846693,
+   "started": "2026-10-03T15:03:20.496Z"
+  },
+  "ALR-0056": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 14770,
+    "write1h": 0,
+    "read": 673630,
+    "out": 2078,
+    "out_est": 179
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.018462500000000003,
+    "read": 0.067363,
+    "out": 0.01039
+   },
+   "cost": 0.0963055,
+   "started": "2026-10-03T15:05:53.235Z"
+  },
+  "ALR-0014": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13911,
+    "write1h": 0,
+    "read": 543211,
+    "out": 2286,
+    "out_est": 49
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.01738875,
+    "read": 0.05432110000000001,
+    "out": 0.011430000000000001
+   },
+   "cost": 0.08321385,
+   "started": "2026-10-03T15:00:44.286Z"
+  },
+  "ALR-0061": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 11700,
+    "write1h": 0,
+    "read": 600788,
+    "out": 2268,
+    "out_est": 27
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.014625,
+    "read": 0.0600788,
+    "out": 0.011340000000000001
+   },
+   "cost": 0.0861258,
+   "started": "2026-10-03T15:06:45.604Z"
+  },
+  "ALR-0023": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 16556,
+    "write1h": 0,
+    "read": 611477,
+    "out": 2072,
+    "out_est": 463
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.020694999999999998,
+    "read": 0.061147700000000006,
+    "out": 0.010360000000000001
+   },
+   "cost": 0.0922847,
+   "started": "2026-10-03T15:02:07.446Z"
+  },
+  "ALR-0034": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14419,
+    "write1h": 0,
+    "read": 608155,
+    "out": 2384,
+    "out_est": 54
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01802375,
+    "read": 0.06081550000000001,
+    "out": 0.01192
+   },
+   "cost": 0.09084125000000001,
+   "started": "2026-10-03T15:03:25.884Z"
+  },
+  "ALR-0018": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 13106,
+    "write1h": 0,
+    "read": 605993,
+    "out": 1958,
+    "out_est": 108
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.0163825,
+    "read": 0.0605993,
+    "out": 0.009790000000000002
+   },
+   "cost": 0.08685380000000001,
+   "started": "2026-10-03T15:01:53.378Z"
+  },
+  "ALR-0049": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 13789,
+    "write1h": 0,
+    "read": 608242,
+    "out": 2278,
+    "out_est": 111
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.017236250000000005,
+    "read": 0.06082420000000001,
+    "out": 0.01139
+   },
+   "cost": 0.08953245000000001,
+   "started": "2026-10-03T15:05:32.391Z"
+  },
+  "ALR-0048": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 4,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13504,
+    "write1h": 0,
+    "read": 542880,
+    "out": 1549,
+    "out_est": 126
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.016880000000000003,
+    "read": 0.054288,
+    "out": 0.007744999999999999
+   },
+   "cost": 0.078987,
+   "started": "2026-10-03T15:05:29.777Z"
+  },
+  "ALR-0041": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 12989,
+    "write1h": 0,
+    "read": 541865,
+    "out": 2642,
+    "out_est": 51
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.01623625,
+    "read": 0.054186500000000005,
+    "out": 0.01321
+   },
+   "cost": 0.08370675000000001,
+   "started": "2026-10-03T15:04:30.004Z"
+  },
+  "ALR-0080": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 14039,
+    "write1h": 0,
+    "read": 479329,
+    "out": 3025,
+    "out_est": 41
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.01754875,
+    "read": 0.0479329,
+    "out": 0.015125
+   },
+   "cost": 0.08067265,
+   "started": "2026-10-03T15:08:22.509Z"
+  },
+  "ALR-0066": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14923,
+    "write1h": 0,
+    "read": 611116,
+    "out": 2764,
+    "out_est": 27
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01865375,
+    "read": 0.06111160000000001,
+    "out": 0.01382
+   },
+   "cost": 0.09366735000000001,
+   "started": "2026-10-03T15:07:00.063Z"
+  },
+  "ALR-0008": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 13650,
+    "write1h": 0,
+    "read": 480200,
+    "out": 2232,
+    "out_est": 47
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.0170625,
+    "read": 0.04802,
+    "out": 0.01116
+   },
+   "cost": 0.0763085,
+   "started": "2026-10-03T15:00:28.205Z"
+  },
+  "ALR-0020": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 16263,
+    "write1h": 0,
+    "read": 610344,
+    "out": 3566,
+    "out_est": 75
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.020328750000000003,
+    "read": 0.06103440000000001,
+    "out": 0.01783
+   },
+   "cost": 0.09927515,
+   "started": "2026-10-03T15:01:58.772Z"
+  },
+  "ALR-0003": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 13880,
+    "write1h": 0,
+    "read": 732966,
+    "out": 2516,
+    "out_est": 120
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.01735,
+    "read": 0.07329660000000002,
+    "out": 0.01258
+   },
+   "cost": 0.10332460000000002,
+   "started": "2026-10-03T14:59:27.777Z"
+  },
+  "ALR-0028": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 16623,
+    "write1h": 0,
+    "read": 675098,
+    "out": 2340,
+    "out_est": 92
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.02077875,
+    "read": 0.06750980000000001,
+    "out": 0.011700000000000002
+   },
+   "cost": 0.10007855,
+   "started": "2026-10-03T15:03:08.390Z"
+  },
+  "ALR-0033": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 14579,
+    "write1h": 0,
+    "read": 676428,
+    "out": 2204,
+    "out_est": 114
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.01822375,
+    "read": 0.0676428,
+    "out": 0.01102
+   },
+   "cost": 0.09697655000000001,
+   "started": "2026-10-03T15:03:23.201Z"
+  },
+  "ALR-0043": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 12918,
+    "write1h": 0,
+    "read": 666410,
+    "out": 1756,
+    "out_est": 180
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.0161475,
+    "read": 0.066641,
+    "out": 0.00878
+   },
+   "cost": 0.0916585,
+   "started": "2026-10-03T15:04:36.076Z"
+  },
+  "ALR-0065": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 14488,
+    "write1h": 0,
+    "read": 670350,
+    "out": 1847,
+    "out_est": 636
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.018109999999999998,
+    "read": 0.067035,
+    "out": 0.009235
+   },
+   "cost": 0.09447,
+   "started": "2026-10-03T15:06:56.790Z"
+  },
+  "ALR-0012": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 16669,
+    "write1h": 0,
+    "read": 611277,
+    "out": 3446,
+    "out_est": 125
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.02083625,
+    "read": 0.0611277,
+    "out": 0.01723
+   },
+   "cost": 0.09927595,
+   "started": "2026-10-03T15:00:39.438Z"
+  },
+  "ALR-0045": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 12874,
+    "write1h": 0,
+    "read": 478902,
+    "out": 1762,
+    "out_est": 63
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.016092500000000003,
+    "read": 0.04789020000000001,
+    "out": 0.00881
+   },
+   "cost": 0.07285870000000001,
+   "started": "2026-10-03T15:04:41.464Z"
+  },
+  "ALR-0035": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 15509,
+    "write1h": 0,
+    "read": 612610,
+    "out": 2451,
+    "out_est": 61
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01938625,
+    "read": 0.06126100000000001,
+    "out": 0.012255
+   },
+   "cost": 0.09298425,
+   "started": "2026-10-03T15:03:28.554Z"
+  },
+  "ALR-0058": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13636,
+    "write1h": 0,
+    "read": 542214,
+    "out": 1755,
+    "out_est": 99
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.017044999999999998,
+    "read": 0.05422139999999999,
+    "out": 0.008775
+   },
+   "cost": 0.08011539999999999,
+   "started": "2026-10-03T15:05:57.985Z"
+  },
+  "ALR-0072": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 13119,
+    "write1h": 0,
+    "read": 605186,
+    "out": 2800,
+    "out_est": 82
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01639875,
+    "read": 0.060518600000000006,
+    "out": 0.014
+   },
+   "cost": 0.09099935,
+   "started": "2026-10-03T15:08:00.745Z"
+  },
+  "ALR-0004": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 13,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.08355960000000001,
+   "tokens": {
+    "input": 106,
+    "write5": 15520,
+    "write1h": 0,
+    "read": 808883,
+    "out": 2283,
+    "out_est": 174
+   },
+   "usd": {
+    "input": 0.00010600000000000002,
+    "write": 0.019399999999999997,
+    "read": 0.08088830000000001,
+    "out": 0.011415
+   },
+   "cost": 0.1118093,
+   "started": "2026-10-03T15:00:17.008Z"
+  },
+  "ALR-0079": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 15323,
+    "write1h": 0,
+    "read": 737799,
+    "out": 1712,
+    "out_est": 317
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.01915375,
+    "read": 0.0737799,
+    "out": 0.00856
+   },
+   "cost": 0.10159164999999999,
+   "started": "2026-10-03T15:08:20.224Z"
+  },
+  "ALR-0057": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 15722,
+    "write1h": 0,
+    "read": 614113,
+    "out": 2426,
+    "out_est": 65
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.0196525,
+    "read": 0.06141130000000001,
+    "out": 0.01213
+   },
+   "cost": 0.0932758,
+   "started": "2026-10-03T15:05:55.852Z"
+  },
+  "ALR-0009": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 13751,
+    "write1h": 0,
+    "read": 480552,
+    "out": 1989,
+    "out_est": 97
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.017188750000000003,
+    "read": 0.048055200000000006,
+    "out": 0.009945
+   },
+   "cost": 0.07525495,
+   "started": "2026-10-03T15:00:30.835Z"
+  },
+  "ALR-0030": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 15350,
+    "write1h": 0,
+    "read": 741276,
+    "out": 3405,
+    "out_est": 106
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.0191875,
+    "read": 0.0741276,
+    "out": 0.017025
+   },
+   "cost": 0.1104381,
+   "started": "2026-10-03T15:03:14.471Z"
+  },
+  "ALR-0015": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 13910,
+    "write1h": 0,
+    "read": 605866,
+    "out": 2655,
+    "out_est": 27
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.0173875,
+    "read": 0.060586600000000004,
+    "out": 0.013275
+   },
+   "cost": 0.0913311,
+   "started": "2026-10-03T15:01:44.586Z"
+  },
+  "ALR-0073": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14973,
+    "write1h": 0,
+    "read": 612762,
+    "out": 2494,
+    "out_est": 82
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01871625,
+    "read": 0.0612762,
+    "out": 0.012470000000000002
+   },
+   "cost": 0.09254445,
+   "started": "2026-10-03T15:08:03.358Z"
+  },
+  "ALR-0052": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 14712,
+    "write1h": 0,
+    "read": 547312,
+    "out": 1706,
+    "out_est": 110
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.018389999999999997,
+    "read": 0.05473120000000001,
+    "out": 0.00853
+   },
+   "cost": 0.0817252,
+   "started": "2026-10-03T15:05:41.183Z"
+  },
+  "ALR-0054": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14625,
+    "write1h": 0,
+    "read": 609524,
+    "out": 2478,
+    "out_est": 59
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.018281250000000002,
+    "read": 0.06095239999999999,
+    "out": 0.01239
+   },
+   "cost": 0.09170564999999999,
+   "started": "2026-10-03T15:05:47.251Z"
+  },
+  "ALR-0046": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14685,
+    "write1h": 0,
+    "read": 609802,
+    "out": 1650,
+    "out_est": 245
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01835625,
+    "read": 0.060980200000000005,
+    "out": 0.00825
+   },
+   "cost": 0.08766845000000001,
+   "started": "2026-10-03T15:04:44.800Z"
+  },
+  "ALR-0011": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 13530,
+    "write1h": 0,
+    "read": 672569,
+    "out": 2185,
+    "out_est": 119
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.0169125,
+    "read": 0.06725690000000001,
+    "out": 0.010925
+   },
+   "cost": 0.09518440000000002,
+   "started": "2026-10-03T15:00:36.793Z"
+  },
+  "ALR-0074": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13858,
+    "write1h": 0,
+    "read": 544103,
+    "out": 2294,
+    "out_est": 49
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.0173225,
+    "read": 0.05441030000000001,
+    "out": 0.011470000000000001
+   },
+   "cost": 0.08327680000000001,
+   "started": "2026-10-03T15:08:05.977Z"
+  },
+  "ALR-0031": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 13,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.08355960000000001,
+   "tokens": {
+    "input": 106,
+    "write5": 16428,
+    "write1h": 0,
+    "read": 813561,
+    "out": 2825,
+    "out_est": 499
+   },
+   "usd": {
+    "input": 0.00010600000000000002,
+    "write": 0.020534999999999998,
+    "read": 0.08135610000000001,
+    "out": 0.014124999999999999
+   },
+   "cost": 0.1161221,
+   "started": "2026-10-03T15:03:17.137Z"
+  },
+  "ALR-0050": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 14527,
+    "write1h": 0,
+    "read": 739257,
+    "out": 2786,
+    "out_est": 76
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.01815875,
+    "read": 0.0739257,
+    "out": 0.013930000000000001
+   },
+   "cost": 0.10611245,
+   "started": "2026-10-03T15:05:35.764Z"
+  },
+  "ALR-0071": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13340,
+    "write1h": 0,
+    "read": 543322,
+    "out": 2289,
+    "out_est": 62
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.016675000000000002,
+    "read": 0.0543322,
+    "out": 0.011445
+   },
+   "cost": 0.0825262,
+   "started": "2026-10-03T15:07:57.458Z"
+  },
+  "ALR-0062": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13692,
+    "write1h": 0,
+    "read": 544115,
+    "out": 2290,
+    "out_est": 295
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.017115,
+    "read": 0.0544115,
+    "out": 0.011450000000000002
+   },
+   "cost": 0.0830505,
+   "started": "2026-10-03T15:06:48.254Z"
+  },
+  "ALR-0010": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 15209,
+    "write1h": 0,
+    "read": 612023,
+    "out": 2358,
+    "out_est": 62
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.019011250000000004,
+    "read": 0.06120230000000001,
+    "out": 0.01179
+   },
+   "cost": 0.09208555,
+   "started": "2026-10-03T15:00:34.156Z"
+  },
+  "ALR-0002": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 17020,
+    "write1h": 0,
+    "read": 679633,
+    "out": 2328,
+    "out_est": 144
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.021275000000000006,
+    "read": 0.0679633,
+    "out": 0.01164
+   },
+   "cost": 0.10096830000000001,
+   "started": "2026-10-03T14:59:25.986Z"
+  },
+  "ALR-0001": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 14824,
+    "write1h": 0,
+    "read": 674520,
+    "out": 2556,
+    "out_est": 151
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.018529999999999998,
+    "read": 0.067452,
+    "out": 0.012780000000000001
+   },
+   "cost": 0.098852,
+   "started": "2026-10-03T14:59:22.745Z"
+  },
+  "ALR-0017": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 15467,
+    "write1h": 0,
+    "read": 612378,
+    "out": 2588,
+    "out_est": 202
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01933375,
+    "read": 0.06123780000000001,
+    "out": 0.012939999999999998
+   },
+   "cost": 0.09359355,
+   "started": "2026-10-03T15:01:50.008Z"
+  },
+  "ALR-0059": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 4,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 14254,
+    "write1h": 0,
+    "read": 482711,
+    "out": 1451,
+    "out_est": 105
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.0178175,
+    "read": 0.04827110000000001,
+    "out": 0.007255
+   },
+   "cost": 0.0734096,
+   "started": "2026-10-03T15:06:39.754Z"
+  },
+  "ALR-0070": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 13860,
+    "write1h": 0,
+    "read": 671604,
+    "out": 1975,
+    "out_est": 96
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.017324999999999997,
+    "read": 0.06716040000000001,
+    "out": 0.009875
+   },
+   "cost": 0.0944504,
+   "started": "2026-10-03T15:07:54.910Z"
+  },
+  "ALR-0075": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 17706,
+    "write1h": 0,
+    "read": 686351,
+    "out": 2537,
+    "out_est": 109
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.022132499999999996,
+    "read": 0.0686351,
+    "out": 0.012685000000000002
+   },
+   "cost": 0.1035426,
+   "started": "2026-10-03T15:08:09.244Z"
+  },
+  "ALR-0013": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 8,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 15489,
+    "write1h": 0,
+    "read": 739557,
+    "out": 2867,
+    "out_est": 135
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.019361250000000003,
+    "read": 0.07395570000000001,
+    "out": 0.014335
+   },
+   "cost": 0.10774995000000002,
+   "started": "2026-10-03T15:00:42.081Z"
+  },
+  "ALR-0007": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 17133,
+    "write1h": 0,
+    "read": 680691,
+    "out": 2390,
+    "out_est": 108
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.02141625,
+    "read": 0.0680691,
+    "out": 0.01195
+   },
+   "cost": 0.10152535,
+   "started": "2026-10-03T15:00:25.559Z"
+  },
+  "ALR-0036": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 12999,
+    "write1h": 0,
+    "read": 605214,
+    "out": 2484,
+    "out_est": 49
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.016248750000000003,
+    "read": 0.060521399999999996,
+    "out": 0.012420000000000002
+   },
+   "cost": 0.08927215,
+   "started": "2026-10-03T15:03:30.832Z"
+  },
+  "ALR-0064": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 14580,
+    "write1h": 0,
+    "read": 544790,
+    "out": 1988,
+    "out_est": 81
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.018225,
+    "read": 0.05447900000000001,
+    "out": 0.009940000000000003
+   },
+   "cost": 0.08271800000000001,
+   "started": "2026-10-03T15:06:54.185Z"
+  },
+  "ALR-0025": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 9,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14510,
+    "write1h": 0,
+    "read": 606676,
+    "out": 2717,
+    "out_est": 27
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.018137499999999997,
+    "read": 0.0606676,
+    "out": 0.013585000000000002
+   },
+   "cost": 0.0924721,
+   "started": "2026-10-03T15:02:12.362Z"
+  },
+  "ALR-0026": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 14234,
+    "write1h": 0,
+    "read": 481406,
+    "out": 2303,
+    "out_est": 74
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.0177925,
+    "read": 0.0481406,
+    "out": 0.011515
+   },
+   "cost": 0.0775141,
+   "started": "2026-10-03T15:03:02.982Z"
+  },
+  "ALR-0037": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14634,
+    "write1h": 0,
+    "read": 608801,
+    "out": 1924,
+    "out_est": 108
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.0182925,
+    "read": 0.060880100000000006,
+    "out": 0.00962
+   },
+   "cost": 0.08887460000000001,
+   "started": "2026-10-03T15:04:18.584Z"
+  },
+  "ALR-0076": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 16461,
+    "write1h": 0,
+    "read": 674716,
+    "out": 3168,
+    "out_est": 115
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.02057625,
+    "read": 0.0674716,
+    "out": 0.015839999999999996
+   },
+   "cost": 0.10397785,
+   "started": "2026-10-03T15:08:11.848Z"
+  },
+  "ALR-0024": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 13521,
+    "write1h": 0,
+    "read": 479397,
+    "out": 2451,
+    "out_est": 6
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.016901250000000003,
+    "read": 0.0479397,
+    "out": 0.012255
+   },
+   "cost": 0.07716195,
+   "started": "2026-10-03T15:02:10.110Z"
+  },
+  "ALR-0040": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 13341,
+    "write1h": 0,
+    "read": 479481,
+    "out": 1764,
+    "out_est": 27
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.01667625,
+    "read": 0.04794810000000001,
+    "out": 0.00882
+   },
+   "cost": 0.07351035,
+   "started": "2026-10-03T15:04:27.324Z"
+  },
+  "ALR-0047": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 4,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13714,
+    "write1h": 0,
+    "read": 545754,
+    "out": 1668,
+    "out_est": 151
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.017142499999999998,
+    "read": 0.054575399999999996,
+    "out": 0.00834
+   },
+   "cost": 0.08013189999999999,
+   "started": "2026-10-03T15:04:46.557Z"
+  },
+  "ALR-0042": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14383,
+    "write1h": 0,
+    "read": 609855,
+    "out": 2599,
+    "out_est": 49
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01797875,
+    "read": 0.060985500000000005,
+    "out": 0.012995000000000001
+   },
+   "cost": 0.09204125000000002,
+   "started": "2026-10-03T15:04:32.714Z"
+  },
+  "ALR-0078": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 15170,
+    "write1h": 0,
+    "read": 739669,
+    "out": 2352,
+    "out_est": 105
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.0189625,
+    "read": 0.0739669,
+    "out": 0.011760000000000001
+   },
+   "cost": 0.10478740000000002,
+   "started": "2026-10-03T15:08:17.683Z"
+  },
+  "ALR-0068": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 15180,
+    "write1h": 0,
+    "read": 674856,
+    "out": 3039,
+    "out_est": 84
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.018975000000000006,
+    "read": 0.0674856,
+    "out": 0.015195
+   },
+   "cost": 0.1017456,
+   "started": "2026-10-03T15:07:05.279Z"
+  },
+  "ALR-0063": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 13,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.08355960000000001,
+   "tokens": {
+    "input": 106,
+    "write5": 15084,
+    "write1h": 0,
+    "read": 803211,
+    "out": 3117,
+    "out_est": 136
+   },
+   "usd": {
+    "input": 0.00010600000000000002,
+    "write": 0.018855000000000004,
+    "read": 0.0803211,
+    "out": 0.015585000000000002
+   },
+   "cost": 0.11486710000000001,
+   "started": "2026-10-03T15:06:50.887Z"
+  },
+  "ALR-0060": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 14282,
+    "write1h": 0,
+    "read": 737619,
+    "out": 2181,
+    "out_est": 148
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.017852499999999997,
+    "read": 0.0737619,
+    "out": 0.010905
+   },
+   "cost": 0.1026174,
+   "started": "2026-10-03T15:06:42.342Z"
+  },
+  "ALR-0053": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 16398,
+    "write1h": 0,
+    "read": 682720,
+    "out": 2136,
+    "out_est": 200
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.0204975,
+    "read": 0.06827200000000001,
+    "out": 0.01068
+   },
+   "cost": 0.0995395,
+   "started": "2026-10-03T15:05:44.549Z"
+  },
+  "ALR-0069": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14938,
+    "write1h": 0,
+    "read": 609883,
+    "out": 1573,
+    "out_est": 147
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.018672499999999998,
+    "read": 0.0609883,
+    "out": 0.007865
+   },
+   "cost": 0.0876078,
+   "started": "2026-10-03T15:07:07.569Z"
+  },
+  "ALR-0029": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 18063,
+    "write1h": 0,
+    "read": 683816,
+    "out": 2991,
+    "out_est": 108
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.022578749999999998,
+    "read": 0.06838160000000001,
+    "out": 0.014955000000000001
+   },
+   "cost": 0.10600535000000001,
+   "started": "2026-10-03T15:03:11.758Z"
+  },
+  "ALR-0019": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 14540,
+    "write1h": 0,
+    "read": 609161,
+    "out": 1910,
+    "out_est": 152
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.018175000000000004,
+    "read": 0.0609161,
+    "out": 0.009550000000000001
+   },
+   "cost": 0.0887231,
+   "started": "2026-10-03T15:01:56.063Z"
+  },
+  "ALR-0051": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 15203,
+    "write1h": 0,
+    "read": 612131,
+    "out": 3347,
+    "out_est": 142
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01900375,
+    "read": 0.061213100000000006,
+    "out": 0.016735
+   },
+   "cost": 0.09703385,
+   "started": "2026-10-03T15:05:38.481Z"
+  },
+  "ALR-0038": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 15267,
+    "write1h": 0,
+    "read": 739402,
+    "out": 2679,
+    "out_est": 584
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.01908375,
+    "read": 0.0739402,
+    "out": 0.013395
+   },
+   "cost": 0.10651695,
+   "started": "2026-10-03T15:04:21.239Z"
+  },
+  "ALR-0006": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 12385,
+    "write1h": 0,
+    "read": 539871,
+    "out": 1983,
+    "out_est": 97
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.015481250000000002,
+    "read": 0.0539871,
+    "out": 0.009915
+   },
+   "cost": 0.07945735000000001,
+   "started": "2026-10-03T15:00:22.233Z"
+  },
+  "ALR-0027": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 14,
+   "final_usage": 10,
+   "first_context": 58364,
+   "harness_usd": 0.089396,
+   "tokens": {
+    "input": 114,
+    "write5": 15742,
+    "write1h": 0,
+    "read": 873942,
+    "out": 2722,
+    "out_est": 385
+   },
+   "usd": {
+    "input": 0.00011400000000000002,
+    "write": 0.0196775,
+    "read": 0.08739419999999999,
+    "out": 0.01361
+   },
+   "cost": 0.12079569999999999,
+   "started": "2026-10-03T15:03:05.701Z"
+  },
+  "ALR-0044": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 12,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0777232,
+   "tokens": {
+    "input": 98,
+    "write5": 14698,
+    "write1h": 0,
+    "read": 737044,
+    "out": 2701,
+    "out_est": 133
+   },
+   "usd": {
+    "input": 9.800000000000001e-05,
+    "write": 0.0183725,
+    "read": 0.0737044,
+    "out": 0.013505000000000001
+   },
+   "cost": 0.10567990000000001,
+   "started": "2026-10-03T15:04:38.793Z"
+  },
+  "ALR-0067": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13224,
+    "write1h": 0,
+    "read": 543294,
+    "out": 2161,
+    "out_est": 42
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.01653,
+    "read": 0.0543294,
+    "out": 0.010805
+   },
+   "cost": 0.0817384,
+   "started": "2026-10-03T15:07:02.708Z"
+  },
+  "ALR-0021": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 11,
+   "final_usage": 6,
+   "first_context": 58364,
+   "harness_usd": 0.0718868,
+   "tokens": {
+    "input": 90,
+    "write5": 12671,
+    "write1h": 0,
+    "read": 669134,
+    "out": 1635,
+    "out_est": 224
+   },
+   "usd": {
+    "input": 9e-05,
+    "write": 0.015838750000000002,
+    "read": 0.0669134,
+    "out": 0.008175000000000002
+   },
+   "cost": 0.09101715,
+   "started": "2026-10-03T15:02:02.078Z"
+  },
+  "ALR-0022": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 13909,
+    "write1h": 0,
+    "read": 605587,
+    "out": 1805,
+    "out_est": 77
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.017386250000000002,
+    "read": 0.06055870000000001,
+    "out": 0.009025
+   },
+   "cost": 0.08705195000000002,
+   "started": "2026-10-03T15:02:04.743Z"
+  },
+  "ALR-0055": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 8,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.054377600000000005,
+   "tokens": {
+    "input": 66,
+    "write5": 13575,
+    "write1h": 0,
+    "read": 480811,
+    "out": 1467,
+    "out_est": 131
+   },
+   "usd": {
+    "input": 6.599999999999999e-05,
+    "write": 0.016968749999999998,
+    "read": 0.0480811,
+    "out": 0.0073349999999999995
+   },
+   "cost": 0.07245085,
+   "started": "2026-10-03T15:05:49.909Z"
+  },
+  "ALR-0005": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 10,
+   "final_usage": 7,
+   "first_context": 58364,
+   "harness_usd": 0.0660504,
+   "tokens": {
+    "input": 82,
+    "write5": 15697,
+    "write1h": 0,
+    "read": 613513,
+    "out": 2668,
+    "out_est": 69
+   },
+   "usd": {
+    "input": 8.2e-05,
+    "write": 0.01962125,
+    "read": 0.061351300000000004,
+    "out": 0.01334
+   },
+   "cost": 0.09439455000000001,
+   "started": "2026-10-03T15:00:19.577Z"
+  },
+  "ALR-0077": {
+   "model": "claude-haiku-4-5-20251001",
+   "requests": 9,
+   "final_usage": 5,
+   "first_context": 58364,
+   "harness_usd": 0.060214000000000004,
+   "tokens": {
+    "input": 74,
+    "write5": 13949,
+    "write1h": 0,
+    "read": 544422,
+    "out": 2252,
+    "out_est": 75
+   },
+   "usd": {
+    "input": 7.4e-05,
+    "write": 0.01743625,
+    "read": 0.0544422,
+    "out": 0.011260000000000001
+   },
+   "cost": 0.08321245000000001,
+   "started": "2026-10-03T15:08:14.443Z"
+  }
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "ALR-0001": {
+  "acct": "800486B80",
+  "label": 1
+ },
+ "ALR-0002": {
+  "acct": "80101E060",
+  "label": 1
+ },
+ "ALR-0003": {
+  "acct": "806D14980",
+  "label": 0
+ },
+ "ALR-0004": {
+  "acct": "8031C4760",
+  "label": 0
+ },
+ "ALR-0005": {
+  "acct": "800DFFF50",
+  "label": 0
+ },
+ "ALR-0006": {
+  "acct": "8073E9CC0",
+  "label": 1
+ },
+ "ALR-0007": {
+  "acct": "803534450",
+  "label": 0
+ },
+ "ALR-0008": {
+  "acct": "80EA2C9B0",
+  "label": 0
+ },
+ "ALR-0009": {
+  "acct": "8034C2E50",
+  "label": 0
+ },
+ "ALR-0010": {
+  "acct": "8000DBF20",
+  "label": 1
+ },
+ "ALR-0011": {
+  "acct": "80EFDDBB0",
+  "label": 1
+ },
+ "ALR-0012": {
+  "acct": "80B8C98F0",
+  "label": 0
+ },
+ "ALR-0013": {
+  "acct": "800116420",
+  "label": 1
+ },
+ "ALR-0014": {
+  "acct": "8085DD9A0",
+  "label": 1
+ },
+ "ALR-0015": {
+  "acct": "80CF20C30",
+  "label": 0
+ },
+ "ALR-0016": {
+  "acct": "80E35A3D0",
+  "label": 1
+ },
+ "ALR-0017": {
+  "acct": "8001D71F0",
+  "label": 1
+ },
+ "ALR-0018": {
+  "acct": "8021888F0",
+  "label": 0
+ },
+ "ALR-0019": {
+  "acct": "8015C0E90",
+  "label": 1
+ },
+ "ALR-0020": {
+  "acct": "8000F8070",
+  "label": 1
+ },
+ "ALR-0021": {
+  "acct": "802DABCA0",
+  "label": 1
+ },
+ "ALR-0022": {
+  "acct": "80332E960",
+  "label": 0
+ },
+ "ALR-0023": {
+  "acct": "803F54220",
+  "label": 1
+ },
+ "ALR-0024": {
+  "acct": "805CD7330",
+  "label": 0
+ },
+ "ALR-0025": {
+  "acct": "80EC76630",
+  "label": 0
+ },
+ "ALR-0026": {
+  "acct": "80996C170",
+  "label": 1
+ },
+ "ALR-0027": {
+  "acct": "80E86ED60",
+  "label": 1
+ },
+ "ALR-0028": {
+  "acct": "80265AE00",
+  "label": 0
+ },
+ "ALR-0029": {
+  "acct": "804A30000",
+  "label": 1
+ },
+ "ALR-0030": {
+  "acct": "8078D10C0",
+  "label": 1
+ },
+ "ALR-0031": {
+  "acct": "800ECE200",
+  "label": 0
+ },
+ "ALR-0032": {
+  "acct": "802FC8E20",
+  "label": 0
+ },
+ "ALR-0033": {
+  "acct": "80D333580",
+  "label": 1
+ },
+ "ALR-0034": {
+  "acct": "800094FC0",
+  "label": 0
+ },
+ "ALR-0035": {
+  "acct": "80124AAE0",
+  "label": 0
+ },
+ "ALR-0036": {
+  "acct": "801885EB0",
+  "label": 0
+ },
+ "ALR-0037": {
+  "acct": "806F03500",
+  "label": 0
+ },
+ "ALR-0038": {
+  "acct": "806F75230",
+  "label": 0
+ },
+ "ALR-0039": {
+  "acct": "806B94070",
+  "label": 1
+ },
+ "ALR-0040": {
+  "acct": "805132650",
+  "label": 0
+ },
+ "ALR-0041": {
+  "acct": "80CFD98E0",
+  "label": 0
+ },
+ "ALR-0042": {
+  "acct": "80CCFECB0",
+  "label": 0
+ },
+ "ALR-0043": {
+  "acct": "80093B290",
+  "label": 1
+ },
+ "ALR-0044": {
+  "acct": "8015B5F50",
+  "label": 1
+ },
+ "ALR-0045": {
+  "acct": "80BD18E70",
+  "label": 1
+ },
+ "ALR-0046": {
+  "acct": "800124BD0",
+  "label": 1
+ },
+ "ALR-0047": {
+  "acct": "803353530",
+  "label": 0
+ },
+ "ALR-0048": {
+  "acct": "814455B00",
+  "label": 1
+ },
+ "ALR-0049": {
+  "acct": "800F33710",
+  "label": 1
+ },
+ "ALR-0050": {
+  "acct": "8060BF2A0",
+  "label": 1
+ },
+ "ALR-0051": {
+  "acct": "801B94FE0",
+  "label": 0
+ },
+ "ALR-0052": {
+  "acct": "80011AE70",
+  "label": 1
+ },
+ "ALR-0053": {
+  "acct": "801F385C0",
+  "label": 0
+ },
+ "ALR-0054": {
+  "acct": "800319A80",
+  "label": 0
+ },
+ "ALR-0055": {
+  "acct": "809291CB0",
+  "label": 1
+ },
+ "ALR-0056": {
+  "acct": "807CD1A70",
+  "label": 1
+ },
+ "ALR-0057": {
+  "acct": "8001AE2B0",
+  "label": 1
+ },
+ "ALR-0058": {
+  "acct": "80B65BD80",
+  "label": 0
+ },
+ "ALR-0059": {
+  "acct": "80CA8FBC0",
+  "label": 1
+ },
+ "ALR-0060": {
+  "acct": "808A1EB30",
+  "label": 0
+ },
+ "ALR-0061": {
+  "acct": "807AE3400",
+  "label": 1
+ },
+ "ALR-0062": {
+  "acct": "803E18A10",
+  "label": 1
+ },
+ "ALR-0063": {
+  "acct": "806F8FD30",
+  "label": 0
+ },
+ "ALR-0064": {
+  "acct": "800062E20",
+  "label": 1
+ },
+ "ALR-0065": {
+  "acct": "810E5B020",
+  "label": 1
+ },
+ "ALR-0066": {
+  "acct": "811E8D200",
+  "label": 0
+ },
+ "ALR-0067": {
+  "acct": "8071FCA30",
+  "label": 1
+ },
+ "ALR-0068": {
+  "acct": "80A526B80",
+  "label": 0
+ },
+ "ALR-0069": {
+  "acct": "80CF80F60",
+  "label": 0
+ },
+ "ALR-0070": {
+  "acct": "800809400",
+  "label": 0
+ },
+ "ALR-0071": {
+  "acct": "80E27AA10",
+  "label": 1
+ },
+ "ALR-0072": {
+  "acct": "807AA6C80",
+  "label": 0
+ },
+ "ALR-0073": {
+  "acct": "8079B6B80",
+  "label": 0
+ },
+ "ALR-0074": {
+  "acct": "80023A950",
+  "label": 0
+ },
+ "ALR-0075": {
+  "acct": "804C624B0",
+  "label": 0
+ },
+ "ALR-0076": {
+  "acct": "80D7EC5F0",
+  "label": 1
+ },
+ "ALR-0077": {
+  "acct": "80F9756A0",
+  "label": 0
+ },
+ "ALR-0078": {
+  "acct": "806599300",
+  "label": 1
+ },
+ "ALR-0079": {
+  "acct": "801763560",
+  "label": 0
+ },
+ "ALR-0080": {
+  "acct": "8028F2650",
+  "label": 1
+ }
+}

@@ -1,0 +1,948 @@
+{
+ "summary": {
+  "alerts": 40,
+  "model": "claude-sonnet-5-5",
+  "mean": 0.148866235,
+  "median": 0.14396504999999998,
+  "min": 0.120615,
+  "max": 0.2870006,
+  "total": 5.954649400000002,
+  "usd_by_meter": {
+   "input": 0.0008120000000000004,
+   "write": 2.4255399999999994,
+   "read": 3.2218674000000003,
+   "out": 0.3064300000000001
+  },
+  "mean_harness_usd": 0.12289346,
+  "harness_share": 0.8255294425898525,
+  "mean_requests": 5.075,
+  "mean_first_context": 80319,
+  "mean_read_tokens": 402733.425,
+  "mean_write_tokens": 24255.4,
+  "mean_output_tokens": 766.075,
+  "share_requests_with_final_usage": 0.4039408866995074,
+  "share_output_estimated": 0.2569591750155011
+ },
+ "per_alert": {
+  "ALR-0010": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22245,
+    "write1h": 0,
+    "read": 397969,
+    "out": 601,
+    "out_est": 157
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.055612499999999995,
+    "read": 0.07959379999999999,
+    "out": 0.006010000000000001
+   },
+   "cost": 0.14123629999999998,
+   "started": "2026-10-03T15:11:16.901Z"
+  },
+  "ALR-0013": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 23263,
+    "write1h": 0,
+    "read": 399010,
+    "out": 871,
+    "out_est": 238
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.058157499999999994,
+    "read": 0.079802,
+    "out": 0.00871
+   },
+   "cost": 0.14668949999999997,
+   "started": "2026-10-03T15:11:43.844Z"
+  },
+  "ALR-0035": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 24418,
+    "write1h": 0,
+    "read": 399865,
+    "out": 1001,
+    "out_est": 88
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.061044999999999995,
+    "read": 0.079973,
+    "out": 0.010010000000000002
+   },
+   "cost": 0.151048,
+   "started": "2026-10-03T15:13:19.922Z"
+  },
+  "ALR-0016": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22177,
+    "write1h": 0,
+    "read": 396825,
+    "out": 694,
+    "out_est": 189
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.0554425,
+    "read": 0.07936499999999999,
+    "out": 0.00694
+   },
+   "cost": 0.1417675,
+   "started": "2026-10-03T15:11:52.392Z"
+  },
+  "ALR-0020": {
+   "model": "claude-sonnet-5-5",
+   "requests": 4,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1019489,
+   "tokens": {
+    "input": 8,
+    "write5": 21928,
+    "write1h": 0,
+    "read": 312398,
+    "out": 944,
+    "out_est": 16
+   },
+   "usd": {
+    "input": 1.6e-05,
+    "write": 0.05482,
+    "read": 0.06247960000000001,
+    "out": 0.00944
+   },
+   "cost": 0.12675560000000002,
+   "started": "2026-10-03T15:12:03.358Z"
+  },
+  "ALR-0018": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 21799,
+    "write1h": 0,
+    "read": 396239,
+    "out": 764,
+    "out_est": 150
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05449749999999999,
+    "read": 0.07924780000000001,
+    "out": 0.007640000000000001
+   },
+   "cost": 0.1414053,
+   "started": "2026-10-03T15:11:58.376Z"
+  },
+  "ALR-0030": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22719,
+    "write1h": 0,
+    "read": 396837,
+    "out": 534,
+    "out_est": 199
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.0567975,
+    "read": 0.0793674,
+    "out": 0.005340000000000001
+   },
+   "cost": 0.1415249,
+   "started": "2026-10-03T15:12:49.660Z"
+  },
+  "ALR-0025": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22250,
+    "write1h": 0,
+    "read": 397019,
+    "out": 780,
+    "out_est": 151
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.055625,
+    "read": 0.07940380000000001,
+    "out": 0.0078000000000000005
+   },
+   "cost": 0.14284880000000003,
+   "started": "2026-10-03T15:12:35.588Z"
+  },
+  "ALR-0024": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 24234,
+    "write1h": 0,
+    "read": 486348,
+    "out": 921,
+    "out_est": 236
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.060585,
+    "read": 0.09726960000000001,
+    "out": 0.00921
+   },
+   "cost": 0.1670886,
+   "started": "2026-10-03T15:12:32.238Z"
+  },
+  "ALR-0022": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 0,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22835,
+    "write1h": 0,
+    "read": 398229,
+    "out": 419,
+    "out_est": 419
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.0570875,
+    "read": 0.0796458,
+    "out": 0.00419
+   },
+   "cost": 0.1409433,
+   "started": "2026-10-03T15:12:26.187Z"
+  },
+  "ALR-0002": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 23159,
+    "write1h": 0,
+    "read": 399106,
+    "out": 625,
+    "out_est": 212
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05789749999999999,
+    "read": 0.07982120000000001,
+    "out": 0.00625
+   },
+   "cost": 0.1439887,
+   "started": "2026-10-03T15:10:54.035Z"
+  },
+  "ALR-0031": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22830,
+    "write1h": 0,
+    "read": 397972,
+    "out": 786,
+    "out_est": 161
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.057074999999999994,
+    "read": 0.07959440000000001,
+    "out": 0.00786
+   },
+   "cost": 0.14454940000000002,
+   "started": "2026-10-03T15:13:08.122Z"
+  },
+  "ALR-0034": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 23354,
+    "write1h": 0,
+    "read": 398613,
+    "out": 978,
+    "out_est": 148
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.058385,
+    "read": 0.0797226,
+    "out": 0.00978
+   },
+   "cost": 0.14790760000000003,
+   "started": "2026-10-03T15:13:16.611Z"
+  },
+  "ALR-0032": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 23202,
+    "write1h": 0,
+    "read": 398708,
+    "out": 593,
+    "out_est": 243
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.058005,
+    "read": 0.0797416,
+    "out": 0.005930000000000001
+   },
+   "cost": 0.14369659999999998,
+   "started": "2026-10-03T15:13:11.393Z"
+  },
+  "ALR-0029": {
+   "model": "claude-sonnet-5-5",
+   "requests": 4,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1019489,
+   "tokens": {
+    "input": 8,
+    "write5": 21130,
+    "write1h": 0,
+    "read": 311670,
+    "out": 544,
+    "out_est": 177
+   },
+   "usd": {
+    "input": 1.6e-05,
+    "write": 0.052825,
+    "read": 0.062334,
+    "out": 0.00544
+   },
+   "cost": 0.120615,
+   "started": "2026-10-03T15:12:47.644Z"
+  },
+  "ALR-0040": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 23407,
+    "write1h": 0,
+    "read": 485337,
+    "out": 795,
+    "out_est": 148
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.0585175,
+    "read": 0.0970674,
+    "out": 0.00795
+   },
+   "cost": 0.1635589,
+   "started": "2026-10-03T15:13:33.230Z"
+  },
+  "ALR-0017": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 23988,
+    "write1h": 0,
+    "read": 399864,
+    "out": 1251,
+    "out_est": 59
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.059969999999999996,
+    "read": 0.07997280000000001,
+    "out": 0.01251
+   },
+   "cost": 0.1524728,
+   "started": "2026-10-03T15:11:55.097Z"
+  },
+  "ALR-0021": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22179,
+    "write1h": 0,
+    "read": 396251,
+    "out": 405,
+    "out_est": 389
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.0554475,
+    "read": 0.07925020000000002,
+    "out": 0.004050000000000001
+   },
+   "cost": 0.13876770000000002,
+   "started": "2026-10-03T15:12:23.565Z"
+  },
+  "ALR-0023": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22676,
+    "write1h": 0,
+    "read": 397664,
+    "out": 687,
+    "out_est": 249
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05669,
+    "read": 0.07953280000000001,
+    "out": 0.006870000000000001
+   },
+   "cost": 0.14311279999999998,
+   "started": "2026-10-03T15:12:29.510Z"
+  },
+  "ALR-0006": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22156,
+    "write1h": 0,
+    "read": 396265,
+    "out": 648,
+    "out_est": 172
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.055389999999999995,
+    "read": 0.079253,
+    "out": 0.00648
+   },
+   "cost": 0.14114300000000002,
+   "started": "2026-10-03T15:11:06.036Z"
+  },
+  "ALR-0011": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 24818,
+    "write1h": 0,
+    "read": 484985,
+    "out": 1042,
+    "out_est": 390
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.06204499999999999,
+    "read": 0.096997,
+    "out": 0.01042
+   },
+   "cost": 0.169486,
+   "started": "2026-10-03T15:11:37.901Z"
+  },
+  "ALR-0026": {
+   "model": "claude-sonnet-5-5",
+   "requests": 4,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1019489,
+   "tokens": {
+    "input": 8,
+    "write5": 21823,
+    "write1h": 0,
+    "read": 312191,
+    "out": 681,
+    "out_est": 131
+   },
+   "usd": {
+    "input": 1.6e-05,
+    "write": 0.054557499999999995,
+    "read": 0.06243820000000001,
+    "out": 0.00681
+   },
+   "cost": 0.1238217,
+   "started": "2026-10-03T15:12:38.314Z"
+  },
+  "ALR-0008": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 23921,
+    "write1h": 0,
+    "read": 485926,
+    "out": 896,
+    "out_est": 204
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.0598025,
+    "read": 0.0971852,
+    "out": 0.008960000000000001
+   },
+   "cost": 0.1659717,
+   "started": "2026-10-03T15:11:12.080Z"
+  },
+  "ALR-0036": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 23728,
+    "write1h": 0,
+    "read": 484946,
+    "out": 691,
+    "out_est": 327
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.05932,
+    "read": 0.0969892,
+    "out": 0.00691
+   },
+   "cost": 0.1632432,
+   "started": "2026-10-03T15:13:22.529Z"
+  },
+  "ALR-0033": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22777,
+    "write1h": 0,
+    "read": 398179,
+    "out": 803,
+    "out_est": 142
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05694249999999999,
+    "read": 0.0796358,
+    "out": 0.008029999999999999
+   },
+   "cost": 0.14462830000000002,
+   "started": "2026-10-03T15:13:13.956Z"
+  },
+  "ALR-0015": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 20710,
+    "write1h": 0,
+    "read": 394893,
+    "out": 487,
+    "out_est": 215
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.051775,
+    "read": 0.07897860000000001,
+    "out": 0.004870000000000001
+   },
+   "cost": 0.13564360000000003,
+   "started": "2026-10-03T15:11:49.715Z"
+  },
+  "ALR-0001": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.2650517,
+   "tokens": {
+    "input": 10,
+    "write5": 85930,
+    "write1h": 0,
+    "read": 332828,
+    "out": 559,
+    "out_est": 226
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.21482500000000002,
+    "read": 0.0665656,
+    "out": 0.00559
+   },
+   "cost": 0.2870006,
+   "started": "2026-10-03T15:10:51.268Z"
+  },
+  "ALR-0005": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 4,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22438,
+    "write1h": 0,
+    "read": 397851,
+    "out": 1006,
+    "out_est": 16
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.056095,
+    "read": 0.07957020000000002,
+    "out": 0.010060000000000001
+   },
+   "cost": 0.14574520000000002,
+   "started": "2026-10-03T15:11:03.373Z"
+  },
+  "ALR-0038": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 21084,
+    "write1h": 0,
+    "read": 395233,
+    "out": 526,
+    "out_est": 247
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05270999999999999,
+    "read": 0.07904660000000001,
+    "out": 0.005260000000000001
+   },
+   "cost": 0.1370366,
+   "started": "2026-10-03T15:13:28.366Z"
+  },
+  "ALR-0039": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 4,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 23204,
+    "write1h": 0,
+    "read": 484088,
+    "out": 1337,
+    "out_est": 101
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.05800999999999999,
+    "read": 0.0968176,
+    "out": 0.013370000000000002
+   },
+   "cost": 0.1682216,
+   "started": "2026-10-03T15:13:30.997Z"
+  },
+  "ALR-0037": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22930,
+    "write1h": 0,
+    "read": 398226,
+    "out": 716,
+    "out_est": 329
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05732500000000001,
+    "read": 0.07964520000000001,
+    "out": 0.007160000000000001
+   },
+   "cost": 0.1441502,
+   "started": "2026-10-03T15:13:25.777Z"
+  },
+  "ALR-0003": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 21475,
+    "write1h": 0,
+    "read": 395882,
+    "out": 1122,
+    "out_est": 128
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05368749999999999,
+    "read": 0.07917640000000001,
+    "out": 0.01122
+   },
+   "cost": 0.1441039,
+   "started": "2026-10-03T15:10:57.318Z"
+  },
+  "ALR-0009": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 23483,
+    "write1h": 0,
+    "read": 399171,
+    "out": 667,
+    "out_est": 253
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.058707499999999996,
+    "read": 0.0798342,
+    "out": 0.006670000000000001
+   },
+   "cost": 0.1452317,
+   "started": "2026-10-03T15:11:14.712Z"
+  },
+  "ALR-0027": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22512,
+    "write1h": 0,
+    "read": 397446,
+    "out": 588,
+    "out_est": 258
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05628,
+    "read": 0.07948920000000001,
+    "out": 0.005880000000000001
+   },
+   "cost": 0.1416692,
+   "started": "2026-10-03T15:12:41.645Z"
+  },
+  "ALR-0028": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 1,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22632,
+    "write1h": 0,
+    "read": 397626,
+    "out": 649,
+    "out_est": 307
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05657999999999999,
+    "read": 0.0795252,
+    "out": 0.00649
+   },
+   "cost": 0.1426152,
+   "started": "2026-10-03T15:12:44.293Z"
+  },
+  "ALR-0007": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22429,
+    "write1h": 0,
+    "read": 397238,
+    "out": 913,
+    "out_est": 108
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.056072500000000004,
+    "read": 0.07944760000000001,
+    "out": 0.009130000000000001
+   },
+   "cost": 0.1446701,
+   "started": "2026-10-03T15:11:08.705Z"
+  },
+  "ALR-0019": {
+   "model": "claude-sonnet-5-5",
+   "requests": 6,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1340765,
+   "tokens": {
+    "input": 12,
+    "write5": 23019,
+    "write1h": 0,
+    "read": 484433,
+    "out": 753,
+    "out_est": 280
+   },
+   "usd": {
+    "input": 2.3999999999999997e-05,
+    "write": 0.0575475,
+    "read": 0.0968866,
+    "out": 0.00753
+   },
+   "cost": 0.16198810000000002,
+   "started": "2026-10-03T15:12:01.048Z"
+  },
+  "ALR-0012": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 22360,
+    "write1h": 0,
+    "read": 397107,
+    "out": 860,
+    "out_est": 101
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.05589999999999999,
+    "read": 0.0794214,
+    "out": 0.0086
+   },
+   "cost": 0.1439414,
+   "started": "2026-10-03T15:11:40.560Z"
+  },
+  "ALR-0014": {
+   "model": "claude-sonnet-5-5",
+   "requests": 4,
+   "final_usage": 2,
+   "first_context": 80319,
+   "harness_usd": 0.1019489,
+   "tokens": {
+    "input": 8,
+    "write5": 21016,
+    "write1h": 0,
+    "read": 311461,
+    "out": 746,
+    "out_est": 134
+   },
+   "usd": {
+    "input": 1.6e-05,
+    "write": 0.05253999999999999,
+    "read": 0.062292200000000006,
+    "out": 0.0074600000000000005
+   },
+   "cost": 0.12230819999999999,
+   "started": "2026-10-03T15:11:46.427Z"
+  },
+  "ALR-0004": {
+   "model": "claude-sonnet-5-5",
+   "requests": 5,
+   "final_usage": 3,
+   "first_context": 80319,
+   "harness_usd": 0.1180127,
+   "tokens": {
+    "input": 10,
+    "write5": 21978,
+    "write1h": 0,
+    "read": 397438,
+    "out": 760,
+    "out_est": 176
+   },
+   "usd": {
+    "input": 1.9999999999999998e-05,
+    "write": 0.054945,
+    "read": 0.07948760000000002,
+    "out": 0.0076
+   },
+   "cost": 0.14205260000000003,
+   "started": "2026-10-03T15:11:00.046Z"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "decision": {
+  "n": 80,
+  "TP": 37,
+  "FN": 3,
+  "FP": 36,
+  "TN": 4,
+  "escalated": 0.9125,
+  "sensitivity": 0.925,
+  "sensitivity_ci": [
+   0.8013546984090248,
+   0.9741644432281419
+  ],
+  "specificity": 0.1,
+  "specificity_ci": [
+   0.03957888759557486,
+   0.23052074380473897
+  ],
+  "auc": 0.5015625,
+  "mean_score_true": 0.77425,
+  "mean_score_false": 0.76675,
+  "false_closes": [
+   [
+    "ALR-0019",
+    0.87
+   ],
+   [
+    "ALR-0071",
+    0.9
+   ],
+   [
+    "ALR-0080",
+    0.75
+   ]
+  ]
+ },
+ "audit": {
+  "events": 661,
+  "decisions": {
+   "allow": 661
+  },
+  "calls_per_case": [
+   6,
+   8.26,
+   12
+  ],
+  "cases_that_inspected_a_counterparty": 31,
+  "mean_counterparty_calls": 1.02,
+  "mean_bytes_returned": 7152,
+  "tools": {
+   "get_alert": 80,
+   "get_account": 127,
+   "counterparty_summary": 141,
+   "list_transactions": 135,
+   "account_profile": 98,
+   "propose_disposition": 80
+  }
+ },
+ "grounding": {
+  "rationales_citing_an_account": 60,
+  "ids_cited": 109,
+  "ids_that_are_real_counterparties": 109,
+  "rationales_with_dollar_sign": 10,
+  "median_words": 40.0,
+  "max_words": 62
+ }
+}
